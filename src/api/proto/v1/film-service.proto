@@ -13,7 +13,17 @@ message FilmCategory {
     string image_url = 4;
 }
 
+message ChatStreamMessage {
+    string name = 1;
+    string message = 2;
+}
+
+message ChatStreamResponse {
+    string message = 1;
+}
+
 
 service FilmsService {
     rpc ListFashionCategories(FilmEmptyRequest) returns (stream FilmCategory) {}
+    rpc SendMessage(stream ChatStreamMessage) returns( stream ChatStreamResponse) {}
 }

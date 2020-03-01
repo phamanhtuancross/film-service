@@ -49,6 +49,14 @@
         }
       }
     },
+    "v1ChatStreamResponse": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
+        }
+      }
+    },
     "v1FilmCategory": {
       "type": "object",
       "properties": {
@@ -69,6 +77,18 @@
     }
   },
   "x-stream-definitions": {
+    "v1ChatStreamResponse": {
+      "type": "object",
+      "properties": {
+        "result": {
+          "$ref": "#/definitions/v1ChatStreamResponse"
+        },
+        "error": {
+          "$ref": "#/definitions/runtimeStreamError"
+        }
+      },
+      "title": "Stream result of v1ChatStreamResponse"
+    },
     "v1FilmCategory": {
       "type": "object",
       "properties": {
