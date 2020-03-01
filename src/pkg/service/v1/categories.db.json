@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Film Of the moth ",
+    "description": "",
+    "image_url": "https://specials-images.forbesimg.com/imageserve/5df7eb064e291700078331e0/960x0.jpg?fit=scale"
+  },
+  {
+    "id": 2,
+    "name": "Phim cổ trang",
+    "description": "",
+    "image_url": "https://toihoctiengtrung.com/wp-content/uploads/2019/01/tam-sinh-tam-the-than-tinh-duyen.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Phim tình cảm",
+    "description": "",
+    "image_url": "https://feedback.googleusercontent.com/gadgets/proxy?container=fbk&refresh=172800&url=https://bilutv.org/upload/images/2019/12/tinh-yeu-ha-canh-2019_1577547097-big.jpg"
+  },
+  {
+    "id": 4,
+    "name": "NETFLIX",
+    "description": "",
+    "image_url": "https://media.npr.org/assets/img/2019/07/04/ap_19165551810863-852cd5b90680e782e02303308afd219172d04aa1-s800-c85.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Anime",
+    "description": "",
+    "image_url": "https://i.ytimg.com/vi/2PI12ak6Iyo/maxresdefault.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Hoạt hình trung quốc",
+    "description": "",
+    "image_url": "https://cuongtruyen.com/wp-content/uploads/2019/06/phim-hoat-hinh-trung-quoc-Linh-Kiem-Son.jpg"
+  }
+]

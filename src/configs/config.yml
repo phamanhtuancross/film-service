@@ -1,0 +1,12 @@
+# Server configurations
+server:
+  host: "localhost"
+  grpcPort: 1997
+  httpPort: 8080
+
+# Database credentials
+database:
+  host: "127.0.0.1"
+  user: "root"
+  pass: "1anhtuan"
+  schema: "UserAccount"

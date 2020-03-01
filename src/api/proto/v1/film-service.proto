@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package v1;
+
+message FilmEmptyRequest {
+
+}
+
+message FilmCategory {
+    int32 id = 1;
+    string name = 2;
+    string description = 3;
+    string image_url = 4;
+}
+
+
+service FilmsService {
+    rpc ListFashionCategories(FilmEmptyRequest) returns (stream FilmCategory) {}
+}
